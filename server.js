@@ -79,7 +79,7 @@
     res.writeHead(200, {
       'Content-Type': 'text/plain'
     });
-    return res.end("Welcome to ^_^ https://github.com/wiw88/shs");
+    return res.end("Welcome to ^_^ https://wiiw88.herokuapp.com/");
   });
 
   wss = new WebSocketServer({
